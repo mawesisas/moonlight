@@ -1,0 +1,25 @@
+server {
+    # Determines the port number that nginx will listen to for this
+    # server configuration. 80 is the default http port.
+    listen       80;
+
+    # Listen for HTTPS requests as well
+    listen       443 ssl;
+
+    # Tells nginx which directory the files for this domain are located
+    root /usr/share/nginx/html/public;
+    index index.php index.html index.htm;
+
+    location / {
+         try_files $uri $uri/ /index.html /index.php;
+    }
+
+    # pass the PHP scripts to FastCGI server listening on /var/run/php5-fpm.sock
+    location ~ \.php$ {
+            try_files $uri /index.php =404;
+            fastcgi_pass unix:/var/run/php5-fpm.sock;
+            fastcgi_index index.php;
+            fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+            include fastcgi_params;
+    }
+}
