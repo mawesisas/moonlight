@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '18850576045418a6a2a24b54-71997236',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_542074dc6084a7_61776999',
+  'unifunc' => 'content_54218bcb4e8d62_31149981',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_542074dc6084a7_61776999')) {function content_542074dc6084a7_61776999($_smarty_tpl) {?>		
+<?php if ($_valid && !is_callable('content_54218bcb4e8d62_31149981')) {function content_54218bcb4e8d62_31149981($_smarty_tpl) {?>		
 									
 		
 	
@@ -34,8 +34,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="http://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link"	href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Faded Short Sleeve T-shirts" itemprop="url">
-							<img class="replace-2x img-responsive" src="http://localhost:8081/1-home_default/faded-short-sleeve-tshirts.jpg" alt="Faded Short Sleeve T-shirts" title="Faded Short Sleeve T-shirts"  width="250" height="250" itemprop="image" />
+						<a class="product_img_link"	href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url">
+							<img class="replace-2x img-responsive" src="http://localhost:8081/24-home_default/faded-short-sleeve-tshirts.jpg" alt="Faded Short Sleeve T-shirts" title="Faded Short Sleeve T-shirts"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
 							<a class="quick-view-mobile" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" rel="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html">
@@ -47,7 +47,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						</a>
 																			<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
 																	<span itemprop="price" class="price product-price">
-										19,15 $									</span>
+										40,00 $									</span>
 									<meta itemprop="priceCurrency" content="COP" />
 																		
 									
@@ -61,17 +61,17 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Faded Short Sleeve T-shirts" itemprop="url" >
-							Faded Short Sleeve T-shirts
+												<a class="product-name" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url" >
+							Ropa de cama personalizada,  Funda de...
 						</a>
 					</h5>
 					
 					<p class="product-desc" itemprop="description">
-						Faded short sleeve t-shirt with high neckline. Soft and stretchy material for a comfortable fit. Accessorize with a straw hat and you're ready for summer!
+						Hecho especialmente para tu bebe.
 					</p>
 										<div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="content_price">
 													<span itemprop="price" class="price product-price">
-								19,15 $							</span>
+								40,00 $							</span>
 							<meta itemprop="priceCurrency" content="COP" />
 														
 							

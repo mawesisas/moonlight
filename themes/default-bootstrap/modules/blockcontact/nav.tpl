@@ -25,13 +25,13 @@
 <div id="contact-link">
 	<a href="{$link->getPageLink('contact', true)|escape:'html':'UTF-8'}" title="{l s='Contact Us' mod='blockcontact'}">{l s='Contact us' mod='blockcontact'}</a>
 </div>
-	<div id="menu_banner">
+	<!--div id="menu_banner">
      <ul class="sf-menu">
        <li><a href="http://localhost:8081/5-tshirts" title="T-shirts">Home</a></li>
-       <li><a href="http://localhost:8081/fabricantes" title="Todas las marcas">Fabrics</a></li>
-       <li><a href="http://localhost:8081/fabricantes" title="Todas las marcas">Delivery</a></li>
+       <li><a href="http://localhost:8081/fabricantes" title="Fabrics">Fabrics</a></li>
+       <li><a href="http://localhost:8081/fabricantes" title="Delivery">Delivery</a></li>
      </ul>
-  </div> 
+  </div--> 
 {if $telnumber}
 	
 	<!--	

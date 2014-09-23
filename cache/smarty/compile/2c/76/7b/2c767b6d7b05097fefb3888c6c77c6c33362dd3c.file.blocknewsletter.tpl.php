@@ -30,7 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <!-- Block Newsletter module-->
 <div id="newsletter_block_left" class="block">
 	<h4><!--<?php echo smartyTranslate(array('s'=>'Newsletter','mod'=>'blocknewsletter'),$_smarty_tpl);?>
--->Newsletter</h4>
+--><a>Newsletter</a></h4>
 	<div class="block_content">
 		<form action="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink('index'), ENT_QUOTES, 'UTF-8', true);?>
 " method="post">

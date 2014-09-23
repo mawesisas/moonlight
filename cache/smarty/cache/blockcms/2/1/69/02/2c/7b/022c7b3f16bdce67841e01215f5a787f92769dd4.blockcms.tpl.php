@@ -12,15 +12,25 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   'nocache_hash' => '9451761475418a6a31190e1-64780072',
   'cache_lifetime' => 31536000,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_542074dc786a61_78727748',
+  'unifunc' => 'content_54218bcb6a17b4_57808010',
   'has_nocache_code' => false,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_542074dc786a61_78727748')) {function content_542074dc786a61_78727748($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_54218bcb6a17b4_57808010')) {function content_54218bcb6a17b4_57808010($_smarty_tpl) {?>
 	<!-- MODULE Block footer -->
 	<section class="footer-block col-xs-12 col-sm-2" id="block_various_links_footer">
 		<h4>Información</h4>
 		<ul class="toggle-footer">
-																								<li>
+																											<li class="item">
+						<a href="http://localhost:8081/content/1-entrega" title="Entrega">
+							Entrega
+						</a>
+					</li>
+																<li class="item">
+						<a href="http://localhost:8081/content/3-condiciones-de-uso" title="Condiciones de uso">
+							Condiciones de uso
+						</a>
+					</li>
+													<li>
 				<a href="http://localhost:8081/mapa-del-sitio" title="mapa del sitio">
 					mapa del sitio
 				</a>

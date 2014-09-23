@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-09-22 14:20:09
+<?php /* Smarty version Smarty-3.1.19, created on 2014-09-23 09:47:30
          compiled from "/vagrant/themes/default-bootstrap/modules/blockcontact/nav.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6247197245418a6a36b6aa7-37166238%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '2aa64a1da03b582d17680c3104ccd4cdb1760119' => 
     array (
       0 => '/vagrant/themes/default-bootstrap/modules/blockcontact/nav.tpl',
-      1 => 1411413091,
+      1 => 1411483645,
       2 => 'file',
     ),
   ),
@@ -32,13 +32,13 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 "><?php echo smartyTranslate(array('s'=>'Contact us','mod'=>'blockcontact'),$_smarty_tpl);?>
 </a>
 </div>
-	<div id="menu_banner">
+	<!--div id="menu_banner">
      <ul class="sf-menu">
        <li><a href="http://localhost:8081/5-tshirts" title="T-shirts">Home</a></li>
-       <li><a href="http://localhost:8081/fabricantes" title="Todas las marcas">Fabrics</a></li>
-       <li><a href="http://localhost:8081/fabricantes" title="Todas las marcas">Delivery</a></li>
+       <li><a href="http://localhost:8081/fabricantes" title="Fabrics">Fabrics</a></li>
+       <li><a href="http://localhost:8081/fabricantes" title="Delivery">Delivery</a></li>
      </ul>
-  </div> 
+  </div--> 
 <?php if ($_smarty_tpl->tpl_vars['telnumber']->value) {?>
 	
 	<!--	
