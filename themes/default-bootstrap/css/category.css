@@ -2,20 +2,25 @@
 								Categories Page Styles
 ************************************************************************************************ */
 .content_scene_cat {
-  border-top: 5px solid #333333;
+ /* border-top: 1px solid #333333;*/
   color: #d7d7d7;
   line-height: 19px;
   margin: 0 0 26px 0; }
   .content_scene_cat .content_scene_cat_bg {
-    padding: 18px 10px 10px 42px;
-    background-color: #464646 !important; }
-    @media (max-width: 1199px) {
-      .content_scene_cat .content_scene_cat_bg {
-        padding: 10px 10px 10px 15px; } }
+    padding: 18px 10px 10px 0px;
+    background-color: transparent; !important;
+    color: #4E4E61 }
+@media (max-width: 1199px) {
+  .content_scene_cat .content_scene_cat_bg {
+   padding: 10px 10px 10px 0px; 
+  }
+}
   .content_scene_cat span.category-name {
-    font: 600 42px/51px "Open Sans", sans-serif;
-    color: white;
-    margin-bottom: 12px; }
+  font: 600 32px/41px "Open Sans", sans-serif;
+  /*color: white;*/
+  color:#4E4E61;
+  margin-bottom: 12px; 
+  }
     @media (max-width: 1199px) {
       .content_scene_cat span.category-name {
         font-size: 25px;

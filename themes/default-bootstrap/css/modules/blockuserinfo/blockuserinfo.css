@@ -6,7 +6,7 @@
     color: white;
     font-weight: lighter;
     display: block;
-    padding: 12px 9px 11px 8px;
+    padding: 10px 9px 1px 8px;
     cursor: pointer;
     font-size: 13px;
     line-height: 18px; }
@@ -15,4 +15,6 @@
         font-size: 11px; } }
     .header_user_info a:hover, .header_user_info a.active {
       background: #589BAC; 
-      color: #333333; }
+      color: #333333;
+      font-weight: bold;
+      }

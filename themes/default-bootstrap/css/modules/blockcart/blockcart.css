@@ -33,6 +33,7 @@
     display: block;
     font-weight: lighter;
     color: #777777;
+    border:1px solid #eee;
    /* text-shadow: 1px 1px rgba(0, 0, 0, 0.2);*/
    text-align: center;
     overflow: hidden; }
@@ -205,7 +206,8 @@
    /* color: white;*/
    color: #333 }
   #header .cart_block dt {
-    background: url(../../../img/cart-shadow.png) repeat-x; }
+   /*background: url(../../../img/cart-shadow.png) repeat-x;*/
+   border-top: 1px solid #fff; }
     #header .cart_block dt.first_item {
       background: none; }
   #header .cart_block .product-atributes {
