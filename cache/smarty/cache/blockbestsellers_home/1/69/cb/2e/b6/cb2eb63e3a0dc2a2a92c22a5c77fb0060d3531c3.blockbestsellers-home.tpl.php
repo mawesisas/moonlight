@@ -17,11 +17,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '6716455225418a6a2bfe7a6-80609330',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5421e29fb49ee4_69991729',
+  'unifunc' => 'content_5422f979a36573_63353540',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5421e29fb49ee4_69991729')) {function content_5421e29fb49ee4_69991729($_smarty_tpl) {?>	
+<?php if ($_valid && !is_callable('content_5422f979a36573_63353540')) {function content_5422f979a36573_63353540($_smarty_tpl) {?>	
 									
 		
 	
@@ -34,15 +34,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div class="product-container" itemscope itemtype="http://schema.org/Product">
 				<div class="left-block">
 					<div class="product-image-container">
-						<a class="product_img_link"	href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url">
+						<a class="product_img_link"	href="http://localhost:8081/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url">
 							<img class="replace-2x img-responsive" src="http://localhost:8081/24-home_default/faded-short-sleeve-tshirts.jpg" alt="Faded Short Sleeve T-shirts" title="Faded Short Sleeve T-shirts"  width="250" height="250" itemprop="image" />
 						</a>
 													<div class="quick-view-wrapper-mobile">
-							<a class="quick-view-mobile" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" rel="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html">
+							<a class="quick-view-mobile" href="http://localhost:8081/1-faded-short-sleeve-tshirts.html" rel="http://localhost:8081/1-faded-short-sleeve-tshirts.html">
 								<i class="icon-eye-open"></i>
 							</a>
 						</div>
-						<a class="quick-view" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" rel="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html">
+						<a class="quick-view" href="http://localhost:8081/1-faded-short-sleeve-tshirts.html" rel="http://localhost:8081/1-faded-short-sleeve-tshirts.html">
 							<span>Vista r&aacute;pida</span>
 						</a>
 																			<div class="content_price" itemprop="offers" itemscope itemtype="http://schema.org/Offer">
@@ -52,7 +52,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 																		
 									
 															</div>
-																			<a class="new-box" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html">
+																			<a class="new-box" href="http://localhost:8081/1-faded-short-sleeve-tshirts.html">
 								<span class="new-label">Nuevo</span>
 							</a>
 																	</div>
@@ -61,7 +61,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 				</div>
 				<div class="right-block">
 					<h5 itemprop="name">
-												<a class="product-name" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url" >
+												<a class="product-name" href="http://localhost:8081/1-faded-short-sleeve-tshirts.html" title="Ropa de cama personalizada,  Funda de almohada del bebé" itemprop="url" >
 							Ropa de cama personalizada,  Funda de...
 						</a>
 					</h5>
@@ -80,7 +80,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 																														<a class="button ajax_add_to_cart_button btn btn-default" href="http://localhost:8081/carro-de-la-compra?add=1&amp;id_product=1&amp;token=9a24476069e25dfc4e8345c217269539" rel="nofollow" title="A&ntilde;adir al carrito" data-id-product="1">
 										<span>A&ntilde;adir al carrito</span>
 									</a>
-																											<a itemprop="url" class="button lnk_view btn btn-default" href="http://localhost:8081/tshirts/1-faded-short-sleeve-tshirts.html" title="Ver">
+																											<a itemprop="url" class="button lnk_view btn btn-default" href="http://localhost:8081/1-faded-short-sleeve-tshirts.html" title="Ver">
 							<span>M&aacute;s</span>
 						</a>
 					</div>

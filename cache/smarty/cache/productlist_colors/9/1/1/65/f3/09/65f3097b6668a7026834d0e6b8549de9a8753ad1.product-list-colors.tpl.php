@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '7968071325419f2ad045266-03314690',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5421e0d2850043_81149572',
+  'unifunc' => 'content_5422fd5a223f27_08016815',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5421e0d2850043_81149572')) {function content_5421e0d2850043_81149572($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
+<?php if ($_valid && !is_callable('content_5422fd5a223f27_08016815')) {function content_5422fd5a223f27_08016815($_smarty_tpl) {?><ul class="color_to_pick_list clearfix">
 					<li>
 			<a href="http://localhost:8081/custom-bedding/9-almohada-persoalizada.html#/color-grey" id="color_51" class="color_pick" style="background:#AAB2BD;">
 							</a>

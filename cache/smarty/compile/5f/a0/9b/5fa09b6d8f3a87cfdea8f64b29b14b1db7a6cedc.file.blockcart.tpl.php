@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2014-09-23 16:14:18
+<?php /* Smarty version Smarty-3.1.19, created on 2014-09-24 11:47:19
          compiled from "/vagrant/themes/default-bootstrap/modules/blockcart/blockcart.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:16269671595418a420b3dea6-28545509%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '5fa09b6d8f3a87cfdea8f64b29b14b1db7a6cedc' => 
     array (
       0 => '/vagrant/themes/default-bootstrap/modules/blockcart/blockcart.tpl',
-      1 => 1411506855,
+      1 => 1411577186,
       2 => 'file',
     ),
   ),
@@ -65,7 +65,7 @@ if (!is_callable('smarty_function_counter')) include '/vagrant/tools/smarty/plug
 		<a href="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['link']->value->getPageLink($_smarty_tpl->tpl_vars['order_process']->value,true), ENT_QUOTES, 'UTF-8', true);?>
 " title="<?php echo smartyTranslate(array('s'=>'View my shopping cart','mod'=>'blockcart'),$_smarty_tpl);?>
 " rel="nofollow">
-			<img src="modules/blockcart/img/icon/coche.png">
+			<img src="/modules/blockcart/img/icon/coche.png">
 			<!--b><?php echo smartyTranslate(array('s'=>'Cart','mod'=>'blockcart'),$_smarty_tpl);?>
 </b-->
 			<span class="ajax_cart_quantity<?php if ($_smarty_tpl->tpl_vars['cart_qties']->value==0) {?> unvisible<?php }?>"><?php echo $_smarty_tpl->tpl_vars['cart_qties']->value;?>

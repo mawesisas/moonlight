@@ -2832,8 +2832,8 @@ input[type="button"].btn-block {
     background-color: #3071a9; }
 
 .label-success {
-  background-color: #55c65e;
-  border: 1px solid #36943e; }
+  background-color: #75CEE4;
+  border: 1px solid #75CEE4; }
   .label-success[href]:hover, .label-success[href]:focus {
     background-color: #3aae43; }
 
@@ -5282,6 +5282,7 @@ header {
     background: white;
     max-height: 100%; 
     background-image: url(../img/telas.png);
+    height: 35px;
    background-repeat: repeat-x;
   }
     header .banner .row {
@@ -6495,10 +6496,10 @@ ul.step {
     float: left;
     width: 20%;
     text-align: left;
-    border: 1px solid;
+    border: 1px solid #CECECE;
     border-top-color: #cacaca;
-    border-bottom-color: #9a9a9a;
-    border-right-color: #b7b7b7;
+    /*border-bottom-color: #9a9a9a;
+    border-right-color: #b7b7b7; */
     border-left-width: 0px; }
     @media (max-width: 767px) {
       ul.step li {
@@ -6509,10 +6510,10 @@ ul.step {
       display: block;
       padding: 13px 10px 14px 13px;
       color: #333333;
-      font-size: 17px;
+      font-size: 14px;
       line-height: 21px;
       font-weight: bold;
-      text-shadow: 1px 1px white;
+     /* text-shadow: 1px 1px white;*/
       position: relative; }
       @media (max-width: 992px) {
         ul.step li a,
@@ -6583,21 +6584,23 @@ ul.step {
           -webkit-border-bottom-right-radius: 4px;
           border-bottom-right-radius: 4px; } }
     ul.step li.step_current {
-      font-weight: bold;
-      background: #42b856;
-      background: -moz-linear-gradient(top, #42b856 0%, #43ab54 100%);
+      font-weight:bold;
+      background: #75CEE4;
+      /*background: -moz-linear-gradient(top, #42b856 0%, #43ab54 100%);
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #42b856), color-stop(100%, #43ab54));
       background: -webkit-linear-gradient(top, #42b856 0%, #43ab54 100%);
       background: -o-linear-gradient(top, #42b856 0%, #43ab54 100%);
       background: -ms-linear-gradient(top, #42b856 0%, #43ab54 100%);
       background: linear-gradient(to bottom, #42b856 0%, #43ab54 100%);
       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#42b856', endColorstr='#43ab54',GradientType=0);
-      border-color: #399b49 #51ae5c #208931 #369946; }
+      border-color: #399b49 #51ae5c #208931 #369946; 
+      */
+    }
       ul.step li.step_current span {
         color: white;
-        text-shadow: 1px 1px #208931;
+       /* text-shadow: 1px 1px #208931;
         border: 1px solid;
-        border-color: #73ca77 #74c776 #74c175 #74c776;
+        border-color: #73ca77 #74c776 #74c175 #74c776;*/
         position: relative; }
         @media (min-width: 992px) {
           ul.step li.step_current span {
@@ -6607,18 +6610,20 @@ ul.step {
     ul.step li.step_current_end {
       font-weight: bold; }
     ul.step li.step_todo {
-      background: #f7f7f7;
-      background: -moz-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
+      background: #eee;
+   /*   background: -moz-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
       background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f7f7f7), color-stop(100%, #ededed));
       background: -webkit-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
       background: -o-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
       background: -ms-linear-gradient(top, #f7f7f7 0%, #ededed 100%);
       background: linear-gradient(to bottom, #f7f7f7 0%, #ededed 100%);
-      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0); }
+      filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#ededed',GradientType=0); 
+*/
+    }
       ul.step li.step_todo span {
         display: block;
-        border: 1px solid;
-        border-color: white;
+        /*border: 1px solid;
+        border-color: white;*/
         color: #333333;
         position: relative; }
         @media (min-width: 992px) {
@@ -6839,7 +6844,9 @@ div.star a:hover {
       position: relative; }
     .footer-container #footer .footer-block {
       margin-top: 45px; 
-      float:left;}
+      float:left;
+      left: 22%;
+    }
       @media (max-width: 767px) {
         .footer-container #footer .footer-block {
           margin-top: 20px; } }
@@ -7090,7 +7097,7 @@ div.star a:hover {
 .cart_delete a.cart_quantity_delete,
 a.price_discount_delete {
   font-size: 23px;
-  color: #333333; }
+  color: #75CEE4; }
   .cart_delete a.cart_quantity_delete:hover,
   a.price_discount_delete:hover {
     color: silver; }

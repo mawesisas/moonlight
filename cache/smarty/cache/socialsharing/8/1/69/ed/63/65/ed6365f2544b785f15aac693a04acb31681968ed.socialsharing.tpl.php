@@ -11,11 +11,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'nocache_hash' => '17812666375419fcd6d64b17-89938723',
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5421aaad5435d4_15666828',
+  'unifunc' => 'content_5422f7ac1fcf60_04550221',
   'has_nocache_code' => false,
   'cache_lifetime' => 31536000,
 ),true); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5421aaad5435d4_15666828')) {function content_5421aaad5435d4_15666828($_smarty_tpl) {?>
+<?php if ($_valid && !is_callable('content_5422f7ac1fcf60_04550221')) {function content_5422f7ac1fcf60_04550221($_smarty_tpl) {?>
 	<p class="socialsharing_product list-inline no-print">
 					<button data-type="twitter" type="button" class="btn btn-default btn-twitter social-sharing">
 				<i class="icon-twitter"></i> Tweet
